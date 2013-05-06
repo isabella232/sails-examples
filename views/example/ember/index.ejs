@@ -1,11 +1,11 @@
 <script type="text/x-handlebars">
-<header><a href="/example/ember">Sails.JS Examples: Ember.js</a></header>
+<header><a href="/example/ember">Sails.JS Examples: Ember</a></header>
 
 <div id="content">
 {{outlet}}
 </div> 
 
-<footer>&copy;2013 Nobody</footer>
+<footer class="clear">&copy;2013 Nobody<div class="float_right"><a href="/">Examples</a></div></footer>
 </script>
 
 <script type="text/x-handlebars" id="players">
@@ -65,6 +65,9 @@ socket.request('/players',{},function(response) {
 
 	//Controllers
 	Leaderboard.PlayersController = Ember.Controller.extend({
+		selectedID: function() {
+			return true;
+		}
 	});
 
 	Leaderboard.DetailsController = Ember.Controller.extend({
