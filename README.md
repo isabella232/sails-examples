@@ -4,8 +4,8 @@ These are Examples of how to use Sails.JS back-end framework with various front-
 
 ###The current examples include:
 
-- [X] jQuery
-- [X] Ember
-- [] Backbone
-- [] Angular
-- [] Objective C (IOS)
+-[X] jQuery
+-[X] Ember
+-[] Backbone
+-[] Angular
+-[] Objective C (IOS)
